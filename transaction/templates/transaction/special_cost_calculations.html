@@ -1,0 +1,17 @@
+{% extends 'transaction/base.html' %}
+
+{% block content %}
+
+<ul>
+    <li><a href="{% url 'specialcalculation1' %}">Средняя цена, общее количество, общий расход и скорость расхода на указанный товар/услугу</a></li>
+    <li><a href="{% url 'specialcalculation2' %}">Средняя цена, общее количество, общий расход и скорость расхода на все товары/услуги</a></li>
+    <li><a href="{% url 'specialcalculation3' %}">Расчёт общего расхода, скорости расхода и доли от общих расходов по категориям товаров/услуг</a></li>
+    <li><a href="{% url 'specialcalculation4' %}">Расчёт общего дохода, скорости дохода и доли от общих доходов по типам поступлений</a></li>
+    <li><a href="{% url 'specialcalculation5' %}">Пусто</a></li>
+    <li><a href="{% url 'specialcalculation6' %}">Пусто</a></li>
+    <li><a href="{% url 'specialcalculation7' %}">Пусто</a></li>
+    <li><a href="{% url 'specialcalculation8' %}">Пусто</a></li>
+    <li><a href="{% url 'specialcalculation9' %}">Пусто</a></li>
+    <li><a href="{% url 'specialcalculation10' %}">Пусто</a></li>
+</ul>
+{% endblock %}
